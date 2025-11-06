@@ -5,7 +5,5 @@ static_sites:
       repo: zentratek/crv-website
       branch: main
       deploy_on_push: true
-    build_command: npm run build
-    output_dir: out
-    routes:
-      - path: /
+    build_command: npm install && npm run build
+    output_dir: /out
