@@ -1,14 +1,11 @@
 name: crv-website
-region: nyc
 static_sites:
   - name: web
     github:
       repo: zentratek/crv-website
       branch: main
       deploy_on_push: true
-    build_command: npm install && npm run build
+    build_command: npm run build
     output_dir: out
-    environment_slug: node-js
-    envs:
-      - key: NODE_VERSION
-        value: "20.0.0"
+    routes:
+      - path: /
