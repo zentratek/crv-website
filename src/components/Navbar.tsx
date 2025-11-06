@@ -37,8 +37,8 @@ export default function Navbar() {
             <Image
               src="/images/logo-small.jpg"
               alt="Clínica de Rehabilitación del Valle"
-              width={isScrolled ? 60 : 80}
-              height={isScrolled ? 25 : 33}
+              width={isScrolled ? 120 : 150}
+              height={isScrolled ? 50 : 62}
               className="transition-all duration-300"
             />
           </div>
